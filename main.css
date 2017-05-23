@@ -75,19 +75,39 @@ div.content {
 
 /*Typography*/
 
-h1, h2, h3, a, p {font-family: 'Roboto', sans-serif;}
+h1, h2, h3, a, p, label {font-family: 'Roboto', sans-serif;}
 
 h1 {font-weight: 700;}
 
-h2, h3, a, p {font-weight: 400;}
+h2, h3, a, p , label {font-weight: 400;}
 
 #logo {
   padding: 8px 16px;
+}
+
+label {
+  float: right;
 }
 
 /*Interactive elements*/
 
 .block {
   width: 200px;
-  height: 200px;
+  height: 64px;
+  background-color: #c0ffee;
+  float: left;
+}
+
+/*CHANGE ME IF EVER GOING TO PRODUCTION!*/
+input[type="color"] {
+  -webkit-appearance: none;
+  border: 1px, solid, #f1f1f1;
+  width: 80px;
+  height: 80px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
 }
