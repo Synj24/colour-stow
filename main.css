@@ -98,16 +98,15 @@ label {
   float: left;
 }
 
-/*CHANGE ME IF EVER GOING TO PRODUCTION!*/
+/*Fix for colour input border*/
+
 input[type="color"] {
-  -webkit-appearance: none;
-  border: 1px, solid, #f1f1f1;
-  width: 80px;
-  height: 80px;
-}
-input[type="color"]::-webkit-color-swatch-wrapper {
-  padding: 0;
-}
-input[type="color"]::-webkit-color-swatch {
+  opacity: 0;
+  display: block;
+  width: 32px;
+  height: 32px;
   border: none;
+}
+#color-picker-wrapper, #color-picker-wrapper-2, #color-picker-wrapper-3, #color-picker-wrapper-4, #color-picker-wrapper-5 {
+  float: left;
 }

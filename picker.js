@@ -1,5 +1,5 @@
 var colour_1
-var defaultColour = "#c0ffee";
+var defaultColour = "#096E72";
 
 window.addEventListener("load", startup, false)
 
