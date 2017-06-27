@@ -16,3 +16,4 @@ TODO
 ## Other
 ---
 [colormind api](http://colormind.io/api-access/)
+[color theory floss](http://write.flossmanuals.net/digital-foundations/color-theory/)
